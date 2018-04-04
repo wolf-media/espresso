@@ -1,0 +1,313 @@
+*::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Marck+Script');
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Cormorant SC', serif;
+	overflow-x: hidden;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 15px;
+	list-style-type: none;
+
+}
+li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.hidden {
+	display: none;
+}
+.top_line {
+	background-color: #e4bb7a;
+	line-height: 30px;
+}
+.local {
+	font-size: 13px;
+}
+.work_time {
+	text-align: left;
+}
+.social {
+	text-align: right;
+}
+.fa {
+	color: #1b1b1b;
+	padding: 0 10px;
+	font-size: 16px;
+}
+.main_menu {
+	background-color: #262626;
+	line-height: 75px;
+}
+.home {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	
+}
+.home_descr {
+	text-align: center;
+	padding: 175px 0px;
+
+}
+.home_descr h1 {
+	font-size: 75px;
+	margin: 0;
+	color: #fff;
+}
+.home_descr p {
+	margin: 0;
+	color: #fff;
+}
+.home_descr img {
+	padding: 45px 0;
+}
+.welcome {
+	font-family: "MarckScript";
+	font-style: italic;
+	font-size: 40px;
+	margin: 0;
+	color: #e4bb7a;
+}
+.button_home {
+	background-color: #e4bb7a;
+	color: #000;
+	text-transform: uppercase;
+	border: none;
+	padding: 15px 75px;
+}
+.arrow_down {
+	text-align: center;
+	padding-bottom: 80px;
+}
+.arrow_down a .fa {
+	color: #e4bb7a;
+	font-size: 20px;
+}
+.menu {
+	text-align: center;
+}
+.our_dishes {
+	font-family: "MarckScript";
+	font-size: 35px;
+	color: #e4bb7a;
+	padding-top: 80px;
+	margin: 0;
+}
+.menu_descr {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+	padding-bottom: 100px;
+	font-weight: 600;
+}
+.product {
+	
+	height: 100%;
+	border: 2px solid #e4bb7a;
+	padding: 28px;
+	margin-bottom: 60px;
+}
+.product_image {
+	padding-bottom: 30px;
+	line-height: 260px;
+}
+.product_image img {
+    height: : 100%;
+}
+.product h3 {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.product p {
+	color: #e4bb7a;
+	font-size: 15px;
+	margin: 0;
+}
+.product_descr {
+	padding: 45px 0;
+}
+.pryce {
+	font-size: 24px;
+	font-weight: 600;
+}
+.steakville {
+	background-color: #fff;
+}
+.steaks {
+	font-family: "MarckScript";
+	font-size: 35px;
+	color: #e4bb7a;
+	padding-top: 80px;
+	margin: 0;
+	text-align: center;
+}
+.steakville_descr {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 100px;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* Our Team */
+
+.our_team {
+	text-align: center;
+	background-color: #292929;
+}
+.our_team h2 {
+	font-family: "MarckScript";
+	font-size: 35px;
+	color: #e4bb7a;
+	padding-top: 80px;
+	margin: 0;
+}
+.our_team h3 {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 100px;
+	font-weight: 600;
+	padding-bottom: 100px;
+}
+.chefs_name {
+	padding-top: 50px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.chefs p {
+	color: #fff;
+	padding: 25px;
+}
+.chefs {
+	padding-bottom: 90px;
+}
+.chef_descr {
+	font-size: 15px;
+	color: #e4bb7a;
+	font-family: "MarckScript";
+}
+
+
+/* Our Team */
+
+
+.reserve {
+	background-color: #1a1a1a;
+	text-align: center;
+	
+}
+.reserve h2 {
+	font-family: "MarckScript";
+	font-size: 35px;
+	color: #e4bb7a;
+	padding-top: 80px;
+	margin: 0;
+}
+.reserve h3 {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	font-weight: 600;
+}
+
+.p_input {
+	padding: 17px 26px;
+	background-color: #1a1a1a;
+	border: 1px solid #e4bb7a;
+	color: #fff;
+}
+
+.button_wrap {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+
+.button_select {
+	padding: 17px 45px;
+	background-color: #e4bb7a;
+	border: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.reserve img {
+	padding: 45px 0;
+}
